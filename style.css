@@ -36,6 +36,11 @@ body {
   border: 1px solid white;
 }
 h1 {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0;
   text-align: center;
   color: white;
 }
@@ -50,4 +55,7 @@ footer hr {
 }
 .discord {
   width: 50;
+}
+hr {
+  background-color: white;
 }
