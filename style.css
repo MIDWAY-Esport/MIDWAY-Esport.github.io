@@ -8,12 +8,14 @@ body {
   height: 100vh;
   background-position: center;
   background-size: cover;
+  color: white;
 }
 
 .lista {
   float: right;
   list-style: none;
   margin-top: 30px;
+  margin-left: 30px;
 }
 
 .lista li {
@@ -45,8 +47,8 @@ h1 {
   color: white;
 }
 footer {
-  display: block;
   position: absolute;
+  display: block;
   bottom: 10px;
   width: 100%;
 }
@@ -58,4 +60,33 @@ footer hr {
 }
 hr {
   background-color: white;
+}
+.contact-message {
+  margin-top: 100px;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 26;
+}
+.contact-message input {
+  display: block;
+  margin: 10px;
+  font-size: 20px;
+}
+.contact-message label {
+  margin: 10px;
+  display: block;
+}
+.contact-message legend {
+  margin-left: 10px;
+}
+.contact-message textarea {
+  margin: 20px;
+  display: block;
+}
+.contact-message fieldset {
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
 }
