@@ -106,3 +106,26 @@ hr {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+.tartalom {
+  text-align: center;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.content {
+  margin-left: auto;
+  margin-right: auto;
+}
+.tartalom ul {
+  display: inline-block;
+}
+h2 {
+  margin: 20px;
+}
+.title {
+  text-align: center;
+}
+.csapattagok {
+  margin-left: 20px;
+  text-align: left;
+}
