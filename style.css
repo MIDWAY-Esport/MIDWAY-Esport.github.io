@@ -18,7 +18,7 @@ h2 {
 }
 
 body {
-  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(background.jpg);
+  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(background.png);
   height: 100vh;
   background-position: center;
   background-size: cover;
@@ -55,7 +55,7 @@ body {
 
 footer {
   position: fixed;
-  background-color: black;
+  background-color: rgb(103, 142, 228);
   display: block;
   bottom: 0;
   width: 100%;
