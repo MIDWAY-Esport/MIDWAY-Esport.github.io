@@ -39,3 +39,15 @@ h1 {
   text-align: center;
   color: white;
 }
+footer {
+  display: block;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+}
+footer hr {
+  width: 100%;
+}
+.discord {
+  width: 50;
+}
