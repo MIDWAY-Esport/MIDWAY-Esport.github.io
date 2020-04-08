@@ -35,3 +35,6 @@ header {
 .lista li.nonactive a:hover {
   border: 1px solid white;
 }
+h1 {
+  text-align: center;
+}
