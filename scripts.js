@@ -11,10 +11,9 @@ $(document).ready(function () {
     statusElement.empty()
 
     if(email.length > 5 && email.includes('@') && email.includes('.')) {
-      statusElement.append('Email is valid')
+
     } else {
       event.preventDefault()
-      statusElement.append('Email is not valid')
     }
   })
 })
