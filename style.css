@@ -18,7 +18,7 @@ h2 {
 }
 
 body {
-  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(background.png);
+  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/background.png);
   height: 100vh;
   background-position: center;
   background-size: cover;
@@ -172,6 +172,38 @@ hr {
   margin-left: 20px;
   text-align: left;
 }
-.hidden {
-  display: none;
+.HOME-images {
+  top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  widt: 1000px;
+  height: 500px;
+}
+.fixed-images {
+  position: relative;
+  width: 600px;
+  height: 300px;
+}
+.HOME-images img {
+  left: 0px;
+  position: absolute;
+  width: 600px;
+}
+.HOME-images button {
+  margin: 10px;
+  background: white;
+  width: 25px;
+  height: 25px;
+  border: 1px solid black;
+  border-radius: 50%
+}
+.HOME-images button:hover {
+  cursor: pointer;
+  background: rgb(103, 142, 228);
+}
+#rocket-league {
+  bottom: 45px;
 }
