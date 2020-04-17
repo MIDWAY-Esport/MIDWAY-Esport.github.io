@@ -2,6 +2,7 @@
 	<head>
 		<title>MIDWAY</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 		<script src="scripts.js"></script>
 	</head>
@@ -34,13 +35,30 @@
 				</ul>
 				<br>
 			</div>
-			<div class="HOME-images">
-				<button class="img-left"><</button>
-				<div class="fixed-images">
-					<img src="images/MIDWAY header.jpg" alt="" id="rocket-league">
-					<img src="images/r6logo.jpg" alt="" id="r6s">
-				</div>
-				<button class="img-right">></button>
+			<div class="viewer-container">
+	      <div class="viewer">
+	        <button id="left-arrow"><</button>
+	        <img alt="" id="photo">
+	        <div class="gray-container">
+	          <h1 id="photo-title">Title</h1>
+	          <p id="photo-description">Description</p>
+	        </div>
+	        <button id="right-arrow">></button>
+	      </div>
+	      <div class="index">
+	        <div class="previews">
+	          <img class="0" src="images/MIDWAY header.png" alt="">
+	          <h3>RL</h3>
+	        </div>
+	        <div class="previews">
+	          <img class="1" src="images/r6logo.jpg" alt="">
+	          <h3>R6S</h3>
+	        </div>
+	        <div class="previews">
+	          <img class="2" src="images/photo3.jpg" alt="">
+	          <h3>none</h3>
+	        </div>
+	      </div>
 			</div>
 		</div>
 	</body>

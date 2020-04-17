@@ -16,23 +16,66 @@ $(document).ready(function () {
       event.preventDefault()
     }
   })
-  let imgtoggle
-  imgtoggle = 0
-  $('#r6s').fadeToggle(0)
-  $('.img-left').click(() => {
-    if (imgtoggle === 1 || imgtoggle === 0) {
-      $('#rocket-league').fadeToggle(300)
-      $('#r6s').fadeToggle(300)
-      imgtoggle = 0
+  let photo1 = {
+    photo: 'images/MIDWAY header.png',
+    title: 'Rocket League',
+    description: ''
+  }
+
+  let photo2 = {
+    photo: 'images/r6logo.jpg',
+    title: 'Rainbow Six Siege',
+    description: ''
+  }
+
+  let photo3 = {
+    photo: 'images/photo3.jpg',
+    title: 'none',
+    description: ''
+  }
+
+  let currentPhoto = 0;
+
+  let imagesData = [photo1, photo2, photo3];
+
+  let loadPhoto = (photoNumber) => {
+    $('#photo').attr('src', imagesData[photoNumber].photo);
+    $('#photo-title').html(imagesData[photoNumber].title)
+    $('#photo-description').html(imagesData[photoNumber].description)
+  }
+
+  loadPhoto(currentPhoto);
+
+  $('#left-arrow').click(() => {
+    currentPhoto--;
+    if (currentPhoto < 0) {
+      currentPhoto++
     }
+    loadPhoto(currentPhoto);
   })
 
-  $('.img-right').click(() => {
-    if (imgtoggle === 0 || imgtoggle === 1) {
-      $('#rocket-league').fadeToggle(300)
-      $('#r6s').fadeToggle(300)
-      imgtoggle = 1
+  $('#right-arrow').click(() => {
+    currentPhoto++;
+    if (currentPhoto > 2) {
+      currentPhoto--
     }
+    loadPhoto(currentPhoto);
+  })
+
+  $('.0').click(() => {
+    currentPhoto = 0;
+    loadPhoto(0);
+  })
+
+  $('.1').click(() => {
+    currentPhoto = 1;
+    loadPhoto(1);
+  })
+
+
+  $('.2').click(() => {
+    currentPhoto = 2;
+    loadPhoto(2);
   })
 
 
