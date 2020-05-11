@@ -252,3 +252,11 @@ hr {
   margin: 0;
   margin-left: 10px;
 }
+
+.csapat {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid white;
+  border-radius: 5px;
+}
