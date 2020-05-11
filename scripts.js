@@ -30,7 +30,7 @@ $(document).ready(function () {
 
   let photo3 = {
     photo: 'images/Valorant.webp',
-    title: 'none',
+    title: 'Valorant',
     description: ''
   }
 
