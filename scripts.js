@@ -29,7 +29,7 @@ $(document).ready(function () {
   }
 
   let photo3 = {
-    photo: 'images/photo3.jpg',
+    photo: 'images/fdfg',
     title: 'none',
     description: ''
   }

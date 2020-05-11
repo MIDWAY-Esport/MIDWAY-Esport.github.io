@@ -233,6 +233,7 @@ hr {
   justify-content: center;
 }
 .gray-container {
+  display: none;
   position: absolute;
   bottom: 0px;
   left: 50px;
