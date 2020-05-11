@@ -29,7 +29,7 @@ $(document).ready(function () {
   }
 
   let photo3 = {
-    photo: 'images/fdfg',
+    photo: 'images/Valorant.webp',
     title: 'none',
     description: ''
   }
