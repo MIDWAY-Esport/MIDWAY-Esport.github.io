@@ -1,2 +1,2 @@
 # MIDWAY-Esport.github.io
-It's a wbsite for an Esport team called MIDWAY.
+It's a website for an Esport team called MIDWAY.
